@@ -1,0 +1,28 @@
+{
+  "name": "normal-coin-price",
+  "version": "1.0.0",
+  "description": "这个项目用于获取比特币（BTC）和以太坊（ETH）的实时价格。",
+  "main": "normal-coin-price/index.js",
+  "scripts": {
+    "start": "node normal-coin-price/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lulucheung2023/normal-coin-price"
+  },
+  "keywords": [
+    "BTC",
+    "ETH",
+    "Price"
+  ],
+  "author": "lulu2023",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lulucheung2023/normal-coin-price/issues"
+  },
+  "homepage": "https://github.com/lulucheung2023/normal-coin-price",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "founction-btc-today": "0.0.1"
+  }
+}
